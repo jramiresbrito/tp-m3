@@ -1,0 +1,34 @@
+.salaryInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.salaryInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.salaryInputContainer > p {
+  color: #50A39b;
+  font-size: 1.5em;
+}
+
+.salaryOutputContainer {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.inputSize {
+  width: 80vw;
+}
+
+.inputSizeSmall {
+  width: 50vw;
+}
